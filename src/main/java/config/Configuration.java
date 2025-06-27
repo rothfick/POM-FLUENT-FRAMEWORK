@@ -84,4 +84,8 @@ public class Configuration {
     public String getTestPassword(){
         return properties.getProperty("test.password");
     }
+
+    public String getAllureResultsDirectory(){
+        return properties.getProperty("allure.results.directory");
+    }
 }
